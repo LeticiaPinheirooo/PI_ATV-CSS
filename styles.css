@@ -1,0 +1,54 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(45, 107, 24);
+    color:blueviolet; /*cor que nao aparece no final*/ 
+}
+/*parte do desafio -3*/
+@media (max-width: 480px) { /* media query*/
+  .container {
+     background-color: #ADD8E6; /* Nova cor p tela menor */
+  }
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: #6cbc1c; /*cor em hexa*/  
+} 
+
+.titulo {
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+}
+
+.subtitulo {
+    color:rgb(7, 51, 7);
+}
+
+/* parte desafio 01
+Sem aplicar uma classe específica para "Título do Parágrafo", crie uma regra para que **somente os elementos com a tag <code>p</code> que sejam "filhos" da <code>div</code> "conteudo"** tenham cor #E4005A e um tamanho de 42px.
+
+(div + .classe + tag afetada (?))
+div.conteudo > p {
+  color: #E4005A;
+  font-size: 42px;
+}*/
+
+
+.conteudo {
+    background-color: rgb(20, 158, 32);
+    color:azure;
+}
+
+.conteudo h1{
+    color: pink;
+}
+
+/*parte do desafio 02*/
+.p3 {
+    color: orange;
+
+} 
